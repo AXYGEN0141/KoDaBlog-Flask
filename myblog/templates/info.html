@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Info about me</h1>
+            <p class="lead">Hello, guys. My name is Danila Koshevoi and this is my very first web aplication. This app is created using the "Python" programming language and the "Flask" micro framework.
+            This may not look as impressive as you might think since I mainly focused on
+            the functionality of the site and on the backend (server side). But in the near future I will try to make this site more pleasant in terms of interface.
+            Btw, you may be one of the first people who actually saw this app.
+                Hope you'll enjoy it.</p>
+            <hr class="my-4">
+            <p>If you want to contact me, I will provide a couple of links below</p>
+            <input type="button" class="btn btn-info" value="VK" onclick=" relocate_vk()">
+
+            <script>
+            function relocate_vk()
+            {
+                 location.href = "https://vk.com/id86240480";
+            }
+            </script>
+
+            <input type="button" class="btn btn-info" value="Instagram" onclick=" relocate_inst()">
+
+            <script>
+            function relocate_inst()
+            {
+                 location.href = "https://www.instagram.com/tvoydanya/";
+            }
+            </script>
+
+            <input type="button" class="btn btn-info" value="LinkedIn" onclick=" relocate_lin()">
+
+            <script>
+            function relocate_lin()
+            {
+                 location.href = "https://www.linkedin.com/in/axygen0141/";
+            }
+            </script>
+
+            <input type="button" class="btn btn-info" value="GitHub" onclick=" relocate_git()">
+
+            <script>
+            function relocate_git()
+            {
+                 location.href = "https://github.com/AXYGEN0141";
+            }
+            </script>
+
+        </div>
+    </div>
+{% endblock %}
